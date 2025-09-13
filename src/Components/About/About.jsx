@@ -1,6 +1,7 @@
 import React from "react";
 import AboutImg from "../../assets/7358653-removebg-preview.png";
 import { IoArrowForward } from "react-icons/io5";
+
 const About = () => {
   return (
     <div
@@ -13,43 +14,51 @@ const About = () => {
           <img className="md:h-80" src={AboutImg} alt="About img" />
 
           <ul>
+            {/* Front-End */}
             <div className="flex gap-3 py-4">
               <IoArrowForward size={30} className="mt-1" />
-
               <span className="w-96">
                 <h1 className="text-xl md:text-2xl font-semibold leading-normal">
-                  Front_End
+                  Front-End
                 </h1>
-                <p className="text-sm md:text-md leading-tight">
-                I have worked with HTML, CSS, and JavaScript to create responsive and interactive web pages. 
-                These technologies helped me build clean user interfaces and enhance user experience in various projects.
-                </p>
+                <ul className="text-sm md:text-md leading-tight list-disc list-inside ml-4">
+                  <li>HTML, CSS, JavaScript</li>
+                  <li>React.js, Tailwind CSS</li>
+                  <li>Built responsive and interactive web pages</li>
+                  <li>Created clean UI and enhanced user experience</li>
+                </ul>
               </span>
             </div>
+
+            {/* Back-End */}
             <div className="flex gap-3 py-4">
               <IoArrowForward size={30} className="mt-1" />
-
               <span className="w-96">
                 <h1 className="text-xl md:text-2xl font-semibold leading-normal">
                   Back-End
                 </h1>
-                <p className="text-sm md:text-md leading-tight">
-                I have experience using PHP, JSP, Servlets, and MySQL to develop dynamic web applications. 
-                I’ve handled server-side logic and database operations to ensure smooth functionality and data management.
-                </p>
+                <ul className="text-sm md:text-md leading-tight list-disc list-inside ml-4">
+                  <li>Node.js, Express.js</li>
+                  <li>MongoDB, Supabase</li>
+                  <li>Developed server-side logic and database operations</li>
+                  <li>Handled real-time data and user management</li>
+                </ul>
               </span>
             </div>
+
+            {/* Other Tools */}
             <div className="flex gap-3 py-4">
               <IoArrowForward size={30} className="mt-1" />
-
               <span className="w-96">
                 <h1 className="text-xl md:text-2xl font-semibold leading-normal">
-                 Other Tools
+                  Other Tools
                 </h1>
-                <p className="text-sm md:text-md leading-tight">
-                I have worked with Spring Boot for building Java-based web applications, which helped streamline the development of back-end APIs and server-side logic. 
-                I’ve also used XAMPP as a local server environment to test and manage PHP and MySQL-based projects efficiently.
-                </p>
+                <ul className="text-sm md:text-md leading-tight list-disc list-inside ml-4">
+                  <li>Supabase Auth for authentication</li>
+                  <li>Git & GitHub for version control</li>
+                  <li>Vercel for deployment</li>
+                  <li>Streamlined development, collaboration, and deployment</li>
+                </ul>
               </span>
             </div>
           </ul>

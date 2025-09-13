@@ -10,9 +10,9 @@ const Home = () => {
           <TextChange />
         </h1><br></br>
         <p className="text-sm md:text-2xl tracking-tight ">
-        I am currently pursuing my Master of Computer Applications (MCA) at New Horizon College of Engineering.
-     
-        </p><br></br>
+       Master’s in Computer Applications (MCA) from New Horizon College of Engineering.</p>
+   <p >  Building a strong foundation in software development and full-stack technologies.
+        </p><p>An Aspiring Developer!!</p><br></br>
         {/* <p className="text-sm md:text-2xl tracking-tight ">
         I have a keen interest in software engineering and aspire to work as a software developer.
         </p> */}
